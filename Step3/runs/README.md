@@ -5,7 +5,7 @@
 
 ## Analysis
 ### verifyStep3.sh: 
-![verifyStep1](images/verifyStep3.png)<br><br>
+![verifyStep3](images/verifyStep3.png)<br><br>
 
 Nope. Even with default initialization inside `Car.sol` of `price` to 10 by us, the Prover still creates a counter-example with `Car.price=0` !<br>
 How do we instruct the Prover to pick up the correct value of `price`?
