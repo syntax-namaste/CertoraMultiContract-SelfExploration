@@ -9,6 +9,4 @@ Reference: [Certora Tutorial - working with multiple contracts][docs]
 
 ## Steps to execute
 `cd specs`<br>
-`./verifyStep2_01.sh`<br>
-And later, <br>
-`./verifyStep2_02.sh`
+`./verifyStep1.sh` (or any other `.sh` script).
