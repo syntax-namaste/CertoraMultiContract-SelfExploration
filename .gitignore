@@ -2,3 +2,4 @@
 .certora_recent_jobs.json
 .zip-output-url.txt
 .certora_internal
+*.zip
