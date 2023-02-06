@@ -9,4 +9,4 @@
 
 Manually adding the `require` statement that the price of the car should always be 10 does the job for us. (Check updated rule `balanceDecreasesOnPurchase` in `person.spec`).<br><br>
 
-Since the price of the car always remains 10, shoudn't we do this via `invariants`? Let us try that as our next step.
+Since the price of the car always remains 10, can we do this via `invariants`? No, because Certora Prover does not invoke constructors of external contracts while using `invariant` or `requireInvariant` (For detailed explanation, refer my GitHub Repo: [Certora-Invariants-Single-And-Multi-Contract-SelfExploration](https://github.com/syntax-namaste/Certora-Invariants-Single-And-Multi-Contract-SelfExploration)).
