@@ -1,5 +1,6 @@
 // since we need to call the function "price()" from inside 
 // Car.sol, we will be referencing it via the "using" keyword.
+// NOTE that this could have been avoided, if Personl.sol had inherited Car.sol
 using Car as vehicle
 
 methods {

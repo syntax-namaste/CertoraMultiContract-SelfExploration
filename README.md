@@ -12,5 +12,5 @@ Reference: [Certora Tutorial - working with multiple contracts][docs]
 `cd specs`<br>
 `./verifyStep1.sh` (or any other `.sh` script).<br><br>
 
-**View every step's analysis in the respective** `/runs/README.md`
+**View every step's analysis in the respective** `/runs/README.md` **along with the respective** `.spec` **files.**
 
